@@ -8,6 +8,8 @@ We can use it with new structured concurrency like:
 ```swift
 Task {
     LoadingView.show()
+    OR
+    LoadingView.hide()
 }
 
 If you are using the MVVM-C architecture:
